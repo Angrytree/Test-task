@@ -2,7 +2,7 @@
 It contains two functions:
 
 ## Boolean isBalanced(String)
-This function takes one parameter as string that contains chars as : # { # }, # [ # ], # ( # ) and returns boolean depends on if all open chars are closed correctly.
+This function takes one parameter as string that contains chars as :  { }, [ ], ( ) and returns boolean depends on if all open chars are closed correctly.
 For example :
 String "{a}[(b)c]" - is balanced and result will be True;
 String "()([a]){" - is not balanced and result will be False;
